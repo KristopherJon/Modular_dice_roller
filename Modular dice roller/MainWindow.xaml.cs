@@ -27,7 +27,7 @@ namespace Modular_dice_roller
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void FlatValueTestGenerteRoll(object sender, RoutedEventArgs e)
         {
             var theDiceRoll = new DiceRoll(NumberOfDice.Value.Value, DiceRangeMin.Value.Value, DiceRangeMax.Value.Value);
             var numberOfRolls = NumberOfRolls.Value.Value;
@@ -70,7 +70,6 @@ namespace Modular_dice_roller
             var results = string.Join(", ", collection);
             MessageBox.Show(results);
         }
-
     }
 }
 
