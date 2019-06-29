@@ -140,8 +140,9 @@
 
                  </Grid>
             </TabItem>
-            
-            <TabItem Header="Opposed test" />
-        </TabControl>
+
+        <TabItem Header="Opposed test">
+        </TabItem>
+    </TabControl>
 </Window>
 
